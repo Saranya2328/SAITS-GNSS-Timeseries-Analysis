@@ -1,4 +1,4 @@
-###SAITS-Based GNSS Time Series Modeling and Event Analysis
+###SAITS-Based GNSS Time Series Modeling and Event Analysis###
 Project Overview
 
 This project focuses on the preprocessing, modeling, and analysis of GNSS satellite time-series data using a deep learning–based SAITS model. The work involves filtering GPS-only constellation data, temporal aggregation from seconds to hourly resolution, training a SAITS deep learning model, visualizing temporal variations, and evaluating model performance using standard metrics.
