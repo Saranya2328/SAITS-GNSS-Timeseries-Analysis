@@ -1,16 +1,16 @@
 # SAITS-Based GNSS Time Series Modeling and Event Analysis #
 
-## Project Overview ##
+### Project Overview ###
 
 This project focuses on the preprocessing, modeling, and analysis of GNSS satellite time-series data using a deep learning–based SAITS model. The work involves filtering GPS-only constellation data, temporal aggregation from seconds to hourly resolution, training a SAITS deep learning model, visualizing temporal variations, and evaluating model performance using standard metrics.
 
 This work was carried out as part of my role as a Lab Engineer at IIT Tirupati Navavishkar I-Hub Foundation, under research and development activities related to GNSS data analysis.
 
-## Problem Statement ##
+### Problem Statement ###
 
 Raw GNSS data contains multi-constellation satellite measurements at high temporal resolution (seconds-level), making it noisy and computationally expensive for modeling. Additionally, accurate modeling of GPS-only signals is essential for reliable temporal analysis and event-based studies.
 
-## Objectives ##
+### Objectives ###
 
 - Filter multi-constellation GNSS data to retain GPS-only signals
 - Convert seconds-level timestamps into hourly time-series data
@@ -18,14 +18,14 @@ Raw GNSS data contains multi-constellation satellite measurements at high tempor
 - Visualize temporal trends and event-based anomalies
 - Evaluate model performance using quantitative metrics
 
-## Dataset Description ##
+### Dataset Description ###
 
 *Input Data*: Raw GNSS satellite data
 *Constellations*: Multiple (filtered to GPS only)
 *Temporal Resolution*: Seconds → Minutes → Hourly
 *Data Type*: Time-series measurements with multiple satellite-related parameters
 
-## Methodology (Pipeline) ##
+### Methodology (Pipeline) ###
 
 **1. Combined Preprocessing**
 
@@ -66,29 +66,29 @@ Raw GNSS data contains multi-constellation satellite measurements at high tempor
 - Computed quantitative performance metrics
 - Used to assess the accuracy and reliability of the SAITS model output
 
-**🧰 Technologies & Libraries Used**
-## Programming Language ##
+### 🧰 Technologies & Libraries Used ###
+**Programming Language**
 - Python
-## Data Processing & Analysis ##
+**Data Processing & Analysis**
 - numpy
 - pandas
-## Visualization ##
+**Visualization**
 - matplotlib
 - seaborn
-## Deep Learning & Modeling ##
+**Deep Learning & Modeling**
 - PyTorch / SAITS framework (as used in implementation)
 - Attention-based neural network architecture
-## Time-Series Handling ##
+**Time-Series Handling**
 - Pandas datetime utilities
 - Time-based resampling and aggregation
-## Evaluation Metrics ##
+**Evaluation Metrics**
 - Standard regression / error metrics (used in Calculated_Metrics.ipynb)
 
-**Evaluation Metrics**
+### Evaluation Metrics ###
 
 The model performance was evaluated using appropriate statistical metrics to quantify prediction/imputation accuracy and temporal consistency. These metrics help validate the effectiveness of the SAITS model on GNSS time-series data.
 
-**📈 Results & Observations**
+### 📈 Results & Observations ###
 
 - GPS-only preprocessing significantly improved data consistency
 - Hourly aggregation reduced noise while preserving temporal trends
