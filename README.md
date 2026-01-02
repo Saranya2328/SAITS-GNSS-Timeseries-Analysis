@@ -1,4 +1,4 @@
-#### SAITS-Based GNSS Time Series Modeling and Event Analysis ####
+# SAITS-Based GNSS Time Series Modeling and Event Analysis #
 
 ## Project Overview ##
 
